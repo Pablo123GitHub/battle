@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/lucas/Dropbox/Coding/Projects/battle/spec/features_spec.rb": [
+      "/Users/lucas/Dropbox/Coding/Projects/battle/spec/features/testing_infrastructure_spec.rb": [
         1,
         null,
         null,
@@ -13,6 +13,6 @@
         null
       ]
     },
-    "timestamp": 1507730016
+    "timestamp": 1507730784
   }
 }
