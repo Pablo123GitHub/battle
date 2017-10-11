@@ -1,7 +1,6 @@
 require 'sinatra/base'
 
 class Battle < Sinatra::Base
-
   enable :sessions
 
   get '/' do
@@ -17,9 +16,9 @@ class Battle < Sinatra::Base
   get '/play' do
     @player_1_name = session[:player_1_name]
     @player_2_name = session[:player_2_name]
+    @player_2_HP = 0
     erb(:play)
   end
-
   # start the server if ruby file executed directly
-  run! if app_file == $PROGRAM_NAME
+  # run! if app_file == $PROGRAM_NAME
 end
