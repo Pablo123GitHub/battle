@@ -8,18 +8,12 @@ feature 'Displays content' do # , type: :feature do
   # end
 
   scenario 'collects users names' do
-    visit '/'
-    fill_in :player_1_name, with: 'Bob'
-    fill_in :player_2_name, with: 'Jim'
-    click_button('Save')
+    sign_in_and_play
     expect(page).to have_content 'Bob vs. Jim'
   end
 
   scenario 'page displays player 2 HPs' do
-    visit '/'
-    fill_in :player_1_name, with: 'Bob'
-    fill_in :player_2_name, with: 'Jim'
-    click_button('Save')
+    sign_in_and_play
     expect(page).to have_content 'Jim HPs: 0'
   end
 end
