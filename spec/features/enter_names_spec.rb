@@ -7,10 +7,11 @@ feature 'Displays content' do # , type: :feature do
   #   expect(page).to have_content 'Testing infrastructure working!'
   # end
 
-  it 'collects users names' do
+  scenario 'collects users names' do
     visit '/'
-    fill_in('Name', with: 'Bob')
+    fill_in :player_1_name, with: 'Bob'
+    fill_in :player_2_name, with: 'Jim'
     click_button('Save')
-    expect(page).to have_content 'Bob'
+    expect(page).to have_content 'Bob vs. Jim'
   end
 end
