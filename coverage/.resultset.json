@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/lucas/Dropbox/Coding/Projects/battle/spec/features/enter_names_spec.rb": [
+      "/Users/pablo/Desktop/Makers/battle-lucas-pablo/spec/features/enter_names_spec.rb": [
         1,
         null,
         null,
@@ -34,8 +34,32 @@
         null,
         null,
         null
+      ],
+      "/Users/pablo/Desktop/Makers/battle-lucas-pablo/spec/player_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/pablo/Desktop/Makers/battle-lucas-pablo/lib/player.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null
       ]
     },
-    "timestamp": 1507817458
+    "timestamp": 1507819465
   }
 }
