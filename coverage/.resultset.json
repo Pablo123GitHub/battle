@@ -1,13 +1,8 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/jon/Projects/Week 3/webintrolucas/jonandlucas/battle/spec/features/enter_names_spec.rb": [
+      "/Users/lucas/Dropbox/Coding/Projects/battle/spec/features/enter_names_spec.rb": [
         1,
-        null,
-        null,
-        null,
-        null,
-        null,
         null,
         null,
         null,
@@ -19,10 +14,28 @@
         1,
         1,
         1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null
       ]
     },
-    "timestamp": 1507739122
+    "timestamp": 1507817458
   }
 }

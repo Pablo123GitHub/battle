@@ -16,7 +16,7 @@ class Battle < Sinatra::Base
   get '/play' do
     @player_1_name = session[:player_1_name]
     @player_2_name = session[:player_2_name]
-    @player_2_HP = 0
+    @player_2_HP = 50 # refactor in constant
     erb(:play)
   end
   # start the server if ruby file executed directly
