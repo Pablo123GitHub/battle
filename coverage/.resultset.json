@@ -35,6 +35,18 @@
         null,
         null
       ],
+      "/Users/pablo/Desktop/Makers/battle-lucas-pablo/spec/game_spec.rb": [
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/pablo/Desktop/Makers/battle-lucas-pablo/spec/player_spec.rb": [
         1,
         null,
@@ -52,6 +64,6 @@
         null
       ]
     },
-    "timestamp": 1507892714
+    "timestamp": 1507904940
   }
 }

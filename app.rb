@@ -1,5 +1,6 @@
 require 'sinatra/base'
 require './lib/player.rb'
+require './lib/game.rb'
 
 class Battle < Sinatra::Base
   enable :sessions
@@ -22,12 +23,13 @@ class Battle < Sinatra::Base
   end
 
   post '/receive_attack' do
-p params
-"hello"
-@player_1_name = $player1.name
-@player_2_name = $player2.name
-$player2.lose_life
-erb(:attack)
-  end
+    p params
+    'hello'
+    @player_1_name = $player1.name
+    @player_2_name = $player2.name
+    # $player2.lose_life
+   Game.new.attack($player2)
 
+    erb(:attack)
+  end
 end
