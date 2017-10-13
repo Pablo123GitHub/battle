@@ -1,8 +1,11 @@
-<form action="/play" method="get">
+<form action="/receive_attack" method="post">
 <input type="submit" value="Attack!">
 </form>
 
 
 <p class='attack'>
 <%= @player_1_name %> (P1) attacked <%= @player_2_name %> (P2)!
+</p>
+<p class='receive_attack'>
+<p>   <%= $player2.name %> points are now : <%= $player2.hp %> </p>
 </p>

@@ -11,7 +11,7 @@ feature Battle do # , type: :feature do
 
   scenario 'page displays player 2 HPs' do
     sign_in_and_play
-    expect(page).to have_content 'Lucas HPs: 50'
+    expect(page).to have_content 'Lucas HPs: 60'
   end
 
   scenario 'P1 attacks P2 and receives confirmation' do
