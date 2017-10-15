@@ -21,17 +21,29 @@ class Battle < Sinatra::Base
     @player_1_name = $game.player1.name
     @player_2_name = $game.player2.name
     @player_2_HP = $game.player2.hp # refactor in constant
+    @game = $game
     erb(:play)
   end
 
   post '/receive_attack' do
-    p params
-    'hello'
+    @game = $game
     @player_1_name = $game.player1.name
     @player_2_name = $game.player2.name
     # $player2.lose_life
    $game.attack($game.player2)
+   $game.switch_turns
+   @current_turn = $game.current_turn.name
 
     erb(:attack)
   end
+
+  get '/attack' do
+
+    @game = $game
+    @game.attack(@game.player2)
+    @game.switch_turns
+    @current_turn = @game.current_turn.name
+    erb(:attack)
+  end
+
 end

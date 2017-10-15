@@ -2,6 +2,10 @@
 <input type="submit" value="Attack!">
 </form>
 
+<p class='turn'>
+<p>   <%= $game.player2.name %> points are now : <%= $game.player2.hp %> </p>
+<p> <%= @current_turn %>'s turn now </p>
+</p>
 
 <p class='attack'>
 <%= @player_1_name %> (P1) attacked <%= @player_2_name %> (P2)!

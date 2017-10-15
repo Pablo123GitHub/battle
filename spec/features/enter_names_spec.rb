@@ -19,4 +19,6 @@ feature Battle do # , type: :feature do
     click_button('Attack!')
     expect(page).to have_content 'Pablo (P1) attacked Lucas (P2)!'
   end
+
+
 end
